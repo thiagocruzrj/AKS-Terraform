@@ -12,9 +12,9 @@ spec:
       name: myapp1-pod
       labels: # Dictionary 
         app: myapp1       
-  spec:
-    containers: # List
-      - name: myapp1-container
-        image: stacksimplify/kubenginx:1.0.0
-        ports:
-          - containerPort: 80
+    spec:
+      containers: # List
+        - name: myapp1-container
+          image: stacksimplify/kubenginx:1.0.0
+          ports:
+            - containerPort: 80
